@@ -74,23 +74,29 @@ https://user-images.githubusercontent.com/78888718/165057578-4231a843-afca-4656-
 https://user-images.githubusercontent.com/78888718/164983941-3f9ae62a-bbf7-4d64-b6ab-00ec6668bf6b.mp4
 
 
-2. 对校内的部分雕像已经完成了三维几何重建与全息渲染工作。下面我们分别用两种方式展示杨振宁、严济慈的雕像重建结果：
+2. 对校内的部分雕像已经完成了三维几何重建与全息渲染工作。下面我们分别用不同的方式展示杨振宁、严济慈、华罗庚的雕像重建结果：
 
    <table frame=void>	<!--使用table标签，且frame=void消除外边框-->
    	<tr>		   <!--<tr>一行的内容<\tr>，<td>一个格子的内容<\td>-->
        <td><center><img src="./img/fig6.jpg"	
                         alt="杨振宁原图"
                         width="427" height="240"/></center></td>	<!--<center>标签将图片居中-->
-       <td><center><img src="./gif/yzn.gif"
-                        alt="杨振宁渲染"
+		<td><center><img src="./img/yjc.png"
+                        alt="严济慈原图"
+                        width="427" height="240"/></center></td>
+       <td><center><img src="./img/hlg.png"
+                        alt="华罗庚原图"
                         width="427" height="240"/></center></td>
        </tr>
 	<tr>	<!--第二行-->
-       <td><center><img src="./img/yjc.png"
-                        alt="严济慈原图"
+       <td><center><img src="./gif/yzn.gif"
+                        alt="杨振宁渲染"
                         width="427" height="240"/></center></td>
        <td><center><img src="./gif/yjc.gif"
                         alt="严济慈渲染"
+                        width="427" height="240"/></center></td>
+		<td><center><img src="./gif/hlg.gif"
+                        alt="华罗庚渲染"
                         width="427" height="240"/></center></td>
        </tr>
    </table>
