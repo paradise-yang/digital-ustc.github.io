@@ -74,36 +74,37 @@ https://user-images.githubusercontent.com/78888718/165057578-4231a843-afca-4656-
 https://user-images.githubusercontent.com/78888718/164983941-3f9ae62a-bbf7-4d64-b6ab-00ec6668bf6b.mp4
 
 
-2. 对校内的部分雕像已经完成了三维几何重建与全息渲染工作。下面我们分别用不同的方式展示杨振宁、严济慈、华罗庚的雕像重建结果：
+2. 对校内的部分雕像已经完成了三维几何重建与全息渲染工作。下面我们分别用不同的方式展示已经初步完成的雕像重建结果：
 
    <table frame=void>	<!--使用table标签，且frame=void消除外边框-->
    	<tr>		   <!--<tr>一行的内容<\tr>，<td>一个格子的内容<\td>-->
        <td><center><img src="./img/fig6.jpg"	
                         alt="杨振宁原图"
                         width="427" height="240"/></center></td>	<!--<center>标签将图片居中-->
-		<td><center><img src="./img/yjc.png"
-                        alt="严济慈原图"
+   	<td><center><img src="./gif/yzn.gif"
+                        alt="杨振宁几何渲染"
                         width="427" height="240"/></center></td>
+       <td><center><img src="./gif/yzn_nerf.gif"
+                        alt="杨振宁NeRF渲染"
+                        width="427" height="240"/></center></td>
+       </tr>
+   <tr>	<!--第二行-->
        <td><center><img src="./img/hlg.png"
                         alt="华罗庚原图"
                         width="427" height="240"/></center></td>
-       </tr>
-	<tr>	<!--第二行-->
-       <td><center><img src="./gif/yzn.gif"
-                        alt="杨振宁渲染"
-                        width="427" height="240"/></center></td>
-       <td><center><img src="./gif/yjc.gif"
-                        alt="严济慈渲染"
-                        width="427" height="240"/></center></td>
-		<td><center><img src="./gif/hlg.gif"
+   	<td><center><img src="./gif/hlg.gif"
                         alt="华罗庚渲染"
+                        width="427" height="240"/></center></td>
+       <td><center><img src="./gif/hlg_nerf.gif"
+                        alt="华罗庚NeRF渲染"
                         width="427" height="240"/></center></td>
        </tr>
    </table>
 
 3. 对郭沫若广场进行了三维全息渲染，效果逼真，高度还原现实真实场景。下面的视频展示了根据我们对郭沫若广场的三维全息重建进行自由漫走的展示效果：  
+
    
-   
+
 https://user-images.githubusercontent.com/78888718/164982423-0b84b76f-1f33-4f12-8c8d-4b8aa3c02f8d.mp4
 
 
@@ -132,7 +133,7 @@ https://user-images.githubusercontent.com/78888718/164982423-0b84b76f-1f33-4f12-
        <img src="./gif/compare.gif" width="850" height="480"/> 
    </center>
    
-  
+
    关于后续工作，课题组的安排如下：
    - 对已经采集的雕像（如：郭沫若、严济慈、钱学森、华罗庚等雕像）进行高精度三维几何重建、高保真全息渲染；
    - 在课题组购买所需的设备后，计划对科大校园进行多尺度、多视角、大规模的进行数据采集与处理工作，尤其针对少年班、老校门等标志性建筑进行重点采集；
