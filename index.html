@@ -515,14 +515,16 @@ table tbody+tbody {
 </p><p>&nbsp;</p><p><span>综合当下不同途径的科大校园景色展示的诸多弊端，足见，我们亟需一个符合科大名校地位的高大上（高保真、大规模、多尺度）科大校园数字化地图与三维模型，以便满足校内外人士对科大校园的浏览与体验需求。</span></p><h3 id='数字化校园目标'><span>数字化校园目标</span></h3><p><span>基于上述实际应用需求，以及课题组将科研成果写到祖国大地的愿景，中科大</span><a href='http://staff.ustc.edu.cn/~juyong/'><span>USTC-3DV课题组</span></a><span>启动了“数字化科大校园”项目，本项目拟达到以下目标：</span></p><ul><li><span>目标一：对科大校园进行三维地图建模，以用于全景地貌、测量、导航等功能；</span></li><li><span>目标二：在任意地点对任意视角进行三维高保真全息渲染，其渲染真实性要达到高清相机所拍摄的图像效果。</span></li></ul><p><span>我们以下图（今年谷歌对旧金山市几个街区所做的全息高保真数字化）为例来展示我们拟达到的效果，具体工作介绍见</span><a href='https://www.51cto.com/article/701350.html'><span>旧金山市的高保真数字化</span></a><span>。课题组还会不断改进优化算法以达到更加优秀的效果，努力追求校园景色的高逼真、多尺度还原，给使用者更佳的浏览与观赏体验！</span></p><p>&nbsp;</p><p>
 	<video id="jiujinshan" poster="./img/jjs.png" controls="controls" preload="none"> <source type="video/mp4" src="./video/google.mp4" />
 </p><p>&nbsp;</p><ul><li><span>目标三：将科大校园内具有特殊意义的地方单独重建恢复出来，如少年班学院、老北门、科学大师雕像、孺子牛等标志性建筑或景观。 </span></li></ul><h3 id='当前进展与工作安排'><span>当前进展与工作安排</span></h3><p><span>截止到目前，本项目已取得了部分进展：</span></p><ol start='' ><li><span>利用无人机与GoPro，对科大校园已经采集了部分用于重建工作的数据：科大校园内雕像的多视角视频与图像、樱花大道的多尺度与多视角视频、郭沫若广场的多尺度与多视角视频。</span></li></ol><p>
-	<video id="collect" poster="./img/collect.png" controls="controls" preload="none"> <source type="video/mp4" src="./video/collect.mp4" /></p><ol start='2' ><li><p><span>对校内的部分雕像已经完成了三维几何重建与全息渲染工作。下面我们分别用两种方式展示杨振宁、严济慈的雕像重建结果：</span></p><table frame="void">	<!--使用table标签，且frame=void消除外边框-->
+	<video id="collect" poster="./img/collect.png" controls="controls" preload="none"> <source type="video/mp4" src="./video/collect.mp4" /></p><ol start='2' ><li><p><span>对校内的部分雕像已经完成了三维几何重建与全息渲染工作。下面我们分别用不同的重建方式来展现我们已经初步完成的雕像重建结果：</span></p><table frame="void">	<!--使用table标签，且frame=void消除外边框-->
 	<tbody><tr>		   <!--<tr>一行的内容<\tr>，<td>一个格子的内容<\td>-->
     <td><center><img src="./img/fig6.jpg" alt="杨振宁原图" width="427" height="240"></center></td>	<!--<center>标签将图片居中-->
-    <td><center><img src="./gif/yzn.gif" alt="杨振宁渲染" width="427" height="240"></center></td>
+	<td><center><img src="./gif/yzn.gif" alt="杨振宁几何渲染" width="427" height="240"></center></td>
+    <td><center><img src="./gif/yzn_nerf.gif" alt="杨振宁NeRF渲染" width="427" height="240"></center></td>
     </tr>
 <tr>	<!--第二行-->
-    <td><center><img src="./img/yjc.png" alt="严济慈原图" width="427" height="240"></center></td>
-    <td><center><img src="./gif/yjc.gif" alt="严济慈渲染" width="427" height="240"></center></td>
+    <td><center><img src="./img/hlg.png" alt="华罗庚原图" width="427" height="240"></center></td>
+	<td><center><img src="./gif/hlg.gif" alt="华罗庚渲染" width="427" height="240"></center></td>
+    <td><center><img src="./gif/hlg_nerf.gif" alt="华罗庚NeRF渲染" width="427" height="240"></center></td>
     </tr>
 </tbody></table></li><li><p><span>对郭沫若广场进行了三维全息渲染，效果逼真，高度还原现实真实场景。下面的视频展示了根据我们对郭沫若广场的三维全息重建进行自由漫走的展示效果：  </span></p><p>&nbsp;</p></li></ol>
 <p><video id="gmr" poster="./img/ori1.jpg" controls="controls" preload="none"> <source type="video/mp4" src="./video/ustc_gmr.mp4" /></p>
